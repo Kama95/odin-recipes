@@ -1,12 +1,16 @@
-*{line-height: 1.5;
-outline: 1px dotted red;
-padding: 0;
-;}
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
 
 .container {border: 20px;
     margin: 0 120px;
 background-color: white;
 width: auto;
+display: inline;
+text-align: center;
 box-shadow:inset;
 }
 .PanCakes,.potatoe-Salad,.spaghetti-bolognaise {
@@ -19,6 +23,10 @@ h1 {color:rgb(111, 14, 167) ;
 text-align: center;
 margin-bottom: 0;
 padding: 0;}
+
+a {font-size: large;
+    font-weight: bold;
+}
 
 .figure { text-align: center;
     margin-bottom: 0px;
@@ -46,11 +54,35 @@ ul{ display: inline-block;
     padding-top: 0;
     font-size: 25px;
     margin-top: 0;
+    text-align: center;
 }
 
 
 ol{
 display:inline-block;
-list-style:decimal;
+list-style-position: inside;
 font-size: 25px;
 word-wrap: break-word;}
+
+.links {
+    display: block;
+      align-items: center;
+    background-color: violet;
+  height: 500px;
+  width: 350px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  
+}
+
+button { border-radius: 10px;
+    background-color: peachpuff;
+
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid pink;
+    padding: 10px;
+
+}
