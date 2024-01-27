@@ -1,36 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&display=swap');
 
-html {font-family: ;}
+html {font-family: 'DM Sans', sans-serif;}
+
+:root {
+    --Black: #0b0c10;
+    --DarkBlue:#1f2833;
+    --gray:#c5c6c7;
+    --Theme :#66fcf1;
+    ---dullGreen:#45a29e;
+}
 
 *{  padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
-
 }
 
+nav.NavBar {background-color: var(--gray);
+padding: 10px;}
 
-.container {border: 20px;
-    margin: 0 120px;
-background-color: white;
-width: auto;
-display: inline;
-text-align: center;
-box-shadow:inset;
-}
 .PanCakes,.potatoe-Salad,.spaghetti-bolognaise {
 padding: 10px;}
 
 body {background-color: grey;
 font-family: fantasy;}
 
-h1 {color:rgb(111, 14, 167) ;
+h1 {color:#fff;
 text-align: center;
 margin-bottom: 0;
-padding: 0;}
+padding: 0;
+text-transform: uppercase;
+font-weight: 600px;}
 
 a {font-size: large;
-    font-weight: bold;
+    font-weight: 200px;
+    text-decoration: none;
+    color: #1a1010
 }
 
 .figure { text-align: center;
@@ -70,9 +75,9 @@ font-size: 25px;
 word-wrap: break-word;}
 
 .links {
-    display: block;
-      align-items: center;
-    background-color: violet;
+    display: inline-block;
+    text-align: center;
+    background-color: var(--DarkBlue);
   height: 500px;
   width: 350px;
   padding: 5px;
@@ -83,11 +88,10 @@ word-wrap: break-word;}
 }
 
 button { border-radius: 10px;
-    background-color: peachpuff;
+    background-color: var(--Theme);
 
     display: inline-block;
     margin: 20px;
-    border: 1px solid pink;
     padding: 10px;
 
 }
